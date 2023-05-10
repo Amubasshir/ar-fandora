@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        bebasNeue: ['Bebas Neue', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
