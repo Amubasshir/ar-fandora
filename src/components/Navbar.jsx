@@ -9,13 +9,16 @@ const Navbar = () => {
   const [active, setActive] = useState('Home'); // default active link is 'Home'
 
   return (
-    <nav className="w-full flex px-6 sm:px-20 justify-between  items-center navbar">
+    <nav className="w-full flex px-6 sm:px-28 justify-between  items-center navbar">
       <img
         src={logo}
         alt="logo-image"
         className="w-full max-w-[200px] mt-5 h-auto sm:max-w-[300px] sm:mx-auto"
       />
-      <ul className="list-none sm:flex hidden justify-center mt-6 pl-20 items-center flex-1">
+      <ul
+        className="list-none sm:flex hidden justify-center
+       pl-20 items-center flex-1"
+      >
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -42,7 +45,7 @@ const Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt="menu-image"
-          className="w-[36px] h-[36px] cursor-pointer object-contain"
+          className="w-[36px] mt-[-18px] h-[36px] cursor-pointer object-contain"
           onClick={() => setToggle((prev) => !prev)}
         />
         <div
