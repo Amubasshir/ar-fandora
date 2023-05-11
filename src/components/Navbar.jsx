@@ -9,14 +9,18 @@ const Navbar = () => {
   const [active, setActive] = useState('Home'); // default active link is 'Home'
 
   return (
-    <nav className="w-full flex py-9 px-20 justify-between item-center navbar">
-      <img src={logo} alt="logo-image" className="w-[303px] h[90px]" />
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+    <nav className="w-full flex px-6 sm:px-20 justify-between  items-center navbar">
+      <img
+        src={logo}
+        alt="logo-image"
+        className="w-full max-w-[200px] mt-5 h-auto sm:max-w-[300px] sm:mx-auto"
+      />
+      <ul className="list-none sm:flex hidden justify-center mt-6 pl-20 items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-montserrat font-bold cursor-pointer text-16px leading-5 ${
-              index === navLinks.length - 1 ? 'mr-0' : 'mr-10'
+              index === navLinks.length - 1 ? 'mr-0' : 'mr-16'
             } text-white ${nav.title === active ? 'text-[#fcfcfc]' : ''}`}
           >
             <a href={`#${nav.id}`} onClick={() => setActive(nav.title)}>
@@ -24,17 +28,17 @@ const Navbar = () => {
             </a>
           </li>
         ))}
-        <li className="ml-6">
-          <button className="text-[#52C1B9] pr-5 font-montserrat font-bold cursor-pointer text-16px leading-5 ">
+        <li className="ml-16">
+          <button className="text-[#52C1B9] pr-16 font-montserrat font-bold cursor-pointer text-16px leading-5 ">
             Login
           </button>
-          <button className="w-[140px] h-[60px] bg-gradient-to-r from-[#38A1BB] to-[#604DBC] shadow-lg rounded-full">
+          <button className="w-[140px] h-[60px] text-white font-montserrat font-bold cursor-pointer text-16px bg-gradient-to-r from-[#38A1BB] to-[#604DBC] shadow-lg rounded-full">
             Sign Up
           </button>
         </li>
       </ul>
 
-      <div className="sm:hidden flex flex-1 mt-[28px] justify-end item-center">
+      <div className="sm:hidden mt-[34px] flex flex-1 justify-end item-center">
         <img
           src={toggle ? close : menu}
           alt="menu-image"
@@ -44,9 +48,9 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? 'flex' : 'hidden'
-          } p-6 bg-black-gradient absolute top-20 right-0 max-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute  top-20 right-0 max-4 my-2 min-w-[110px] rounded-xl sidebar`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="list-none  flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
