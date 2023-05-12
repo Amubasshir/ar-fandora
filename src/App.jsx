@@ -1,7 +1,9 @@
 import './App.css';
+import CrowdFunding from './components/Crowdfunding';
 import Footer from './components/Footer';
+import FutureTalent from './components/FutureTalent';
 import Hero from './components/Hero';
-import NFTRights from './components/NFTRights';
+import MarketPlace from './components/MarketPlace';
 import PreNFT from './components/PreNFT';
 import SignUpCTA from './components/SignUpCTA';
 import Simplicity from './components/Simplicity';
@@ -13,7 +15,9 @@ function App() {
       <SignUpCTA />
       <PreNFT />
       <Simplicity />
-      <NFTRights />
+      <FutureTalent />
+      <MarketPlace />
+      <CrowdFunding />
       <Footer />
     </div>
   );

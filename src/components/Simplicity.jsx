@@ -7,7 +7,7 @@ import shopping from '../assets/nft-marketplace.png';
 const Simplicity = () => {
   const string = '>>>';
   return (
-    <div className="simplicity-section bg-[#07070F] w-[1440px] h-[1292px]">
+    <div className="simplicity-section bg-[#07070F] w-[1440px] h-[1392px]">
       <div className=" max-w-screen-lg mx-auto pt-10">
         <div className="text-center pb-8">
           <h1
