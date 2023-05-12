@@ -5,7 +5,7 @@ import purpleLines from '../assets/purpleLine.png';
 
 const SignUpCTA = () => {
   return (
-    <div className="bg-[#07070F] h-auto relative flex flex-col items-center justify-center">
+    <div className="bg-[#07070F] h-auto pb-8 relative flex flex-col items-center justify-center">
       <div className="relative ">
         <img
           src={purpleLines}
@@ -16,12 +16,12 @@ const SignUpCTA = () => {
           Know about the launch before everyone else
         </p>
       </div>
-      <div className="form mt-10 flex items-start">
+      <div className="form mt-10 mr-72 flex items-start">
         <form className="flex items-center">
           <input
             type="email"
             placeholder="Enter your email"
-            className="border-4 font-montserrat text-xl tracking-[0.1em] leading-7 text-[#b1baed] border-solid bg-transparent w-[575px] h-[75px] border-green-600 rounded-full p-2 mr-9 pl-9 flex-1"
+            className="border-4 font-montserrat outline-none text-xl tracking-[0.1em] leading-7 text-[#b1baed] border-solid bg-transparent w-[575px] h-[75px] border-green-600 rounded-full p-2 mr-9 pl-9 flex-1"
           />
           <button
             type="submit"
@@ -66,7 +66,6 @@ const SignUpCTA = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-5xl text-white">aa</h1>
     </div>
   );
 };

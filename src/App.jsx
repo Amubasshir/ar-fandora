@@ -1,5 +1,6 @@
 import './App.css';
 import Hero from './components/Hero';
+import PreNFT from './components/PreNFT';
 import SignUpCTA from './components/SignUpCTA';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Hero />
       <SignUpCTA />
+      <PreNFT />
     </div>
   );
 }
