@@ -1,5 +1,7 @@
 import './App.css';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
+import NFTRights from './components/NFTRights';
 import PreNFT from './components/PreNFT';
 import SignUpCTA from './components/SignUpCTA';
 import Simplicity from './components/Simplicity';
@@ -11,6 +13,8 @@ function App() {
       <SignUpCTA />
       <PreNFT />
       <Simplicity />
+      <NFTRights />
+      <Footer />
     </div>
   );
 }
