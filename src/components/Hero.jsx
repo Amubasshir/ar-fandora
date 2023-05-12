@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <Navbar />
       <div className=" hero-section flex sm:flex-row">
-        <div className="ml-28 mt-7">
+        <div className="ml-16 mt-7">
           <h1 className="text-white text-[140px] uppercase  font-normal leading-[126px] font-bebas max-w-[606px]">
             Calling <br /> Creators of <br /> the Future
           </h1>
@@ -28,7 +28,7 @@ const Hero = () => {
           </button>
         </div>
         <div>
-          <img src={secondheroBg} alt="" className="ml-80" />
+          <img src={secondheroBg} alt="" className="ml-32 " />
         </div>
       </div>
     </section>

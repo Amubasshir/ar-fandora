@@ -10,13 +10,13 @@ const SignUpCTA = () => {
         <img
           src={purpleLines}
           alt=""
-          className="w-[1640px] h-16 ml-[-96px] mx-80"
+          className="w-[1640px] h-16 ml-[-120px] mx-80"
         />
-        <p className="text-[#52C1B9] font-montserrat font-semibold leading-7 text-2xl text-left ml-32 w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+        <p className="text-[#52C1B9] font-montserrat font-semibold leading-7 text-2xl text-left ml-24 w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
           Know about the launch before everyone else
         </p>
       </div>
-      <div className="form mt-10 mr-72 flex items-start">
+      <div className="form mt-10 mr-20 flex items-start">
         <form className="flex items-center">
           <input
             type="email"
