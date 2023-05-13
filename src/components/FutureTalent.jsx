@@ -36,7 +36,7 @@ const FutureTalent = () => {
       <div className="ft-card max-w-screen-lg mx-auto ">
         <div className="pt-4 flex flex-row flex-wrap gap-7">
           {/* single Card-1 */}
-          <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
+          <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl hover:shadow-[3px_6px_12px_4px_rgba(21,232,186,0.9)] flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
             <img src={frame1} alt="" srcSet="" className="mx-auto" />
             <div className="">
               <h2 className="text-[28px] pb-4 font-bold font-montserrat leading-8 text-[#1B1B1D]  ">
@@ -48,7 +48,7 @@ const FutureTalent = () => {
             </div>
           </div>
           {/* single Card-2 */}
-          <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
+          <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl hover:shadow-[3px_6px_12px_4px_rgba(21,232,186,0.9)] flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
             <img src={frame2} alt="" srcSet="" className="mx-auto" />
             <div className="">
               <h2 className="text-[28px] pb-4 font-bold font-montserrat leading-8 text-[#1B1B1D]  ">
@@ -60,7 +60,7 @@ const FutureTalent = () => {
             </div>
           </div>
           {/* single Card-3 */}
-          <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
+          <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl hover:shadow-[3px_6px_12px_4px_rgba(21,232,186,0.9)] flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
             <img src={frame3} alt="" srcSet="" className="mx-auto" />
             <div className="">
               <h2 className="text-[28px] pb-4 font-bold font-montserrat leading-8 text-[#1B1B1D]  ">
@@ -75,7 +75,7 @@ const FutureTalent = () => {
           {/* card section 2 */}
           <div className="flex justify-center mt-2 gap-7 mx-auto">
             {/* single Card-4 */}
-            <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
+            <div className="w-72 bg-[#ffffff] shadow-slate-400 shadow-2xl hover:shadow-[3px_6px_12px_4px_rgba(21,232,186,0.9)] flex flex-col gap-9 h-96  rounded-3xl bg-gray text-center  pt-4  relative">
               <img src={frame4} alt="" srcSet="" className="mx-auto" />
               <div className="">
                 <h2 className="text-[28px] pb-4 font-bold font-montserrat leading-8 text-[#1B1B1D]  ">
@@ -87,7 +87,7 @@ const FutureTalent = () => {
               </div>
             </div>
             {/* single Card-5 */}
-            <div className="w-72 bg-[#ffffff] flex flex-col gap-9 h-96 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-3xl bg-gray text-center shadow-slate-400 shadow-2xl  pt-4  relative">
+            <div className="w-72 bg-[#ffffff] flex flex-col gap-9 h-96 bg-opacity-50 backdrop-filter backdrop-blur-lg rounded-3xl bg-gray text-center shadow-slate-400 shadow-2xl hover:shadow-[3px_6px_12px_4px_rgba(21,232,186,0.9)] pt-4  relative">
               <img src={frame5} alt="" srcSet="" className="mx-auto" />
               <div className="">
                 <h2 className="text-[28px] pb-4 font-bold font-montserrat leading-8 text-[#1B1B1D]  ">

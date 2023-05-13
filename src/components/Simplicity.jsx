@@ -28,9 +28,9 @@ const Simplicity = () => {
         </div>
 
         {/* card section 1 */}
-        <div className="pt-28 flex flex-row flex-wrap gap-7">
+        <div className="pt-28 flex flex-row  flex-wrap gap-7">
           {/* single Card-1 */}
-          <div className="w-72 flex flex-col gap-10 h-96 bg-[#222125] rounded-3xl text-center p-8 py-12 relative">
+          <div className="w-72 flex hover:shadow-[10px_12px_3px_-8px_rgba(21,232,186,0.9)] flex-col gap-10 h-96 bg-[#222125] rounded-3xl text-center p-8 py-12 relative">
             <img
               src={medal}
               alt=""
