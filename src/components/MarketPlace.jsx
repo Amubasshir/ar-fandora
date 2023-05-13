@@ -2,7 +2,7 @@ import mockup1 from '../assets/mockup1.png';
 import mockup2 from '../assets/mockup2.png';
 const MarketPlace = () => {
   return (
-    <div className="max-w-[1440px] h-[1300px] bg-gradient-to-b from-[#5E4CB6] via-[#6959b9] to-[#8EC0D7]  mx-auto">
+    <div className="max-w-[1440px] h-[1300px] bg-gradient-to-b from-[#5E4CB6] via-[#6959b9] to-[#8EC0D7]  overflow-hidden">
       <div className="mu flex gap-12 max-w-screen-lg mx-auto ">
         <div className="mu-image">
           <img src={mockup1} alt="" />

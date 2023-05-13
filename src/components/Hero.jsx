@@ -21,11 +21,6 @@ const Hero = () => {
             <span>The World’s First Pre-NFT Rights</span>
             <br /> <span>and Content Marketplace</span>
           </p>
-
-          {/* <button className="relative box-border flex items-center justify-center mt-5 border-2 ml-2 border-teal-500 text-[#52C1B9] rounded-full font-montserrat text-sm leading-7 w-32 h-9 ">
-            <span className="absolute left-3 w-[11px] h-[11px] rounded-full bg-teal-500"></span>
-            Now Live
-          </button> */}
           <button className="relative box-border flex items-center justify-center mt-5 border-2 ml-2 border-teal-500 text-[#52C1B9] rounded-full font-montserrat text-sm leading-7 w-32 h-9 blink">
             <span className="absolute left-3 w-[11px] h-[11px] rounded-full bg-teal-500"></span>
             Now Live

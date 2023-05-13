@@ -6,7 +6,7 @@ import { navLinks } from '../constants/index';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [active, setActive] = useState('Home'); // default active link is 'Home'
+  const [active, setActive] = useState('Home');
 
   return (
     <nav className="max-w-[1440px] flex px-8  justify-between  items-center navbar">
