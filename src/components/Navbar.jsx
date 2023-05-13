@@ -22,7 +22,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-montserrat font-bold cursor-pointer text-16px leading-5 ${
+            className={`font-montserrat font-bold cursor-pointer text-base leading-5 ${
               index === navLinks.length - 1 ? 'mr-0' : 'mr-6'
             } text-white ${nav.title === active ? 'text-[#fcfcfc]' : ''}`}
           >

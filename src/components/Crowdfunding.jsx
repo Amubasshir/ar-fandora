@@ -1,6 +1,6 @@
 import frame1 from '../assets/crowd-frame1.png';
 import frame2 from '../assets/crowd-frame2.png';
-import vector from '../assets/vector.png';
+import discord from '../assets/discord.png';
 import DiscoverNFT from './DiscoverNFT';
 const CrowdFunding = () => {
   return (
@@ -34,7 +34,7 @@ const CrowdFunding = () => {
             >
               JOIN THE CONVERSATION
               <span className="pl-4">
-                <img src={vector} alt="" />
+                <img src={discord} alt="" />
               </span>
             </button>
           </div>
@@ -64,7 +64,7 @@ const CrowdFunding = () => {
             >
               JOIN THE CONVERSATION
               <span className="pl-4">
-                <img src={vector} alt="" />
+                <img src={discord} alt="" />
               </span>
             </button>
           </div>
