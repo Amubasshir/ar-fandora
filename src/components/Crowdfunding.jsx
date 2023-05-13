@@ -4,7 +4,7 @@ import vector from '../assets/vector.png';
 import DiscoverNFT from './DiscoverNFT';
 const CrowdFunding = () => {
   return (
-    <div className="cf-section w-[1440px] h-[1240px] bg-[#1B1B1D] rounded-bl-[100px] rounded-br-[100px] z-30 mb-[-100px]">
+    <div className="cf-section w-[1440px] h-[1240px] bg-[#1B1B1D] rounded-bl-[100px] rounded-br-[100px] ">
       <div>
         <div className="cf-top flex items-center justify-center gap-10 pt-10 ">
           <div className="cft-img max-w-[484px] max-h-[484px]">
@@ -73,9 +73,7 @@ const CrowdFunding = () => {
           </div>
         </div>
       </div>
-      <div>
-        <DiscoverNFT />
-      </div>
+      <DiscoverNFT />
     </div>
   );
 };

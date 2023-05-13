@@ -1,7 +1,12 @@
-import React from 'react';
-
 const Footer = () => {
-  return <div className="h-[900px] bg-black -z-10 mt-[100px]">Footer</div>;
+  return (
+    <div
+      className="h-[900px] bg-black mt-[-100px] relative"
+      style={{ zIndex: '-10' }}
+    >
+      <h1>flasdkf</h1>
+    </div>
+  );
 };
 
 export default Footer;
