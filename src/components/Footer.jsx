@@ -11,7 +11,7 @@ const Footer = () => {
   const [active, setActive] = useState();
   return (
     <div
-      className="h-[660px] bg-[#07060E] mt-[-100px] relative"
+      className="h-[660px] max-w-[1440px] bg-[#07060E] mt-[-100px] relative"
       style={{ zIndex: '-10' }}
     >
       <div className="footer-top pt-96 max-w-screen-lg mx-auto">

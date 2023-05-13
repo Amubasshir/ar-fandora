@@ -9,7 +9,7 @@ const Navbar = () => {
   const [active, setActive] = useState('Home'); // default active link is 'Home'
 
   return (
-    <nav className="w-full flex px-8  justify-between  items-center navbar">
+    <nav className="max-w-[1440px] flex px-8  justify-between  items-center navbar">
       <img
         src={logo}
         alt="logo-image"
@@ -32,7 +32,7 @@ const Navbar = () => {
           </li>
         ))}
         <li className="ml-6">
-          <button className="text-[#52C1B9] pr-6 font-montserrat font-bold cursor-pointer text-16px leading-5 ">
+          <button className="text-[#52C1B9] pr-6 font-montserrat hover:scale-105 duration-300 font-bold cursor-pointer text-16px leading-5 ">
             Login
           </button>
           <button className="w-[140px] h-[60px] text-white font-montserrat font-bold cursor-pointer text-16px bg-gradient-to-r from-[#38A1BB] to-[#604DBC] shadow-lg rounded-full">

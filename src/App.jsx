@@ -10,7 +10,7 @@ import Simplicity from './components/Simplicity';
 
 function App() {
   return (
-    <div className="w-[1440px]">
+    <div>
       <Hero />
       <SignUpCTA />
       <PreNFT />

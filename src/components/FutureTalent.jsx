@@ -6,7 +6,7 @@ import frame5 from '../assets/frame5.png';
 
 const FutureTalent = () => {
   return (
-    <div className="ft-section w-[1440px] h-[1540px] bg-[#EFEDF5] rounded-tl-[100px] rounded-tr-[100px] z-20 mt-[-90px] ">
+    <div className="ft-section max-w-[1440px] h-[1540px] bg-[#EFEDF5] rounded-tl-[100px] rounded-tr-[100px] z-20 mt-[-90px] ">
       <div className="ft-text pt-24 ">
         <h1 className="font-bebas font-normal text-9xl leading-[120px] text-center  text-[#222125]">
           Welcome to the Future <br />

@@ -13,7 +13,7 @@ const DiscoverNFT = () => {
               multiple domains.
             </p>
             <button
-              className="w-[209px] h-[71px] text-white  font-semibold text-base leading-5 font-montserrat rounded-full bg-[#1E1E2D]"
+              className="w-[209px] h-[71px] hover:scale-105 duration-300 text-white  font-semibold text-base leading-5 font-montserrat rounded-full bg-[#1E1E2D]"
               style={{
                 backgroundImage:
                   'linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%)',

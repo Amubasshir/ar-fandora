@@ -4,7 +4,7 @@ import discord from '../assets/discord.png';
 import DiscoverNFT from './DiscoverNFT';
 const CrowdFunding = () => {
   return (
-    <div className="cf-section w-[1440px] h-[1240px] bg-[#1B1B1D] rounded-bl-[100px] rounded-br-[100px] ">
+    <div className="cf-section max-w-[1440px] h-[1240px] bg-[#1B1B1D] rounded-bl-[100px] rounded-br-[100px] ">
       <div>
         <div className="cf-top flex items-center justify-center gap-10 pt-10 ">
           <div className="cft-img max-w-[484px] max-h-[484px]">
@@ -25,7 +25,7 @@ const CrowdFunding = () => {
               and figuratively.
             </p>
             <button
-              className="w-[338px] h-[71px] flex items-center justify-center rounded-full font-montserrat font-semibold text-base leading-5 text-[#ffffff]"
+              className="w-[338px] h-[71px] flex items-center justify-center rounded-full font-montserrat font-semibold text-base leading-5 text-white transition-transform duration-500 transform hover:rotate-360 hover:scale-105"
               style={{
                 backgroundImage:
                   'linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%)',
@@ -33,8 +33,8 @@ const CrowdFunding = () => {
               }}
             >
               JOIN THE CONVERSATION
-              <span className="pl-4">
-                <img src={discord} alt="" />
+              <span className="pl-4 inline-block">
+                <img src={discord} alt="" className="" />
               </span>
             </button>
           </div>
@@ -54,8 +54,9 @@ const CrowdFunding = () => {
               content platform which enables you to raise subscriptions as well
               as mint NFTs
             </p>
+
             <button
-              className="w-[338px] h-[71px] flex items-center justify-center rounded-full font-montserrat font-semibold text-base leading-5 text-[#ffffff]"
+              className="w-[338px] h-[71px] flex items-center justify-center rounded-full font-montserrat font-semibold text-base leading-5 text-white transition-transform duration-500 transform hover:rotate-360 hover:scale-105"
               style={{
                 backgroundImage:
                   'linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%)',
@@ -63,8 +64,8 @@ const CrowdFunding = () => {
               }}
             >
               JOIN THE CONVERSATION
-              <span className="pl-4">
-                <img src={discord} alt="" />
+              <span className="pl-4 inline-block">
+                <img src={discord} alt="" className="" />
               </span>
             </button>
           </div>

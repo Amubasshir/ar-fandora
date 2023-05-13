@@ -1,7 +1,7 @@
 import prenft from '../assets/prenft.png';
 const PreNFT = () => {
   return (
-    <div className="bg-[#07070F] h-[490px] pt-20 pl-28">
+    <div className="max-w-[1440px] bg-[#07070F] h-[490px] pt-20 pl-28">
       <div
         className="w-[1156px] h-[330px] rounded-3xl flex px-20 "
         style={{
@@ -17,7 +17,7 @@ const PreNFT = () => {
             A first of its kind platform that discovers and supports global
             talent across multiple domains, now live!
           </p>
-          <button className="w-56 h-[74px] text-white font-semibold text-base leading-5 font-montserrat rounded-full bg-[#1E1E2D]">
+          <button className="w-56 h-[74px] hover:scale-105 duration-300 text-white font-semibold text-base leading-5 font-montserrat rounded-full bg-[#1E1E2D]">
             CHECK IT OUT
           </button>
         </div>

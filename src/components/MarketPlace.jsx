@@ -2,7 +2,7 @@ import mockup1 from '../assets/mockup1.png';
 import mockup2 from '../assets/mockup2.png';
 const MarketPlace = () => {
   return (
-    <div className=" h-[1300px] bg-gradient-to-b from-[#5E4CB6] via-[#6959b9] to-[#8EC0D7] max-w-[1440px] mx-auto">
+    <div className="max-w-[1440px] h-[1300px] bg-gradient-to-b from-[#5E4CB6] via-[#6959b9] to-[#8EC0D7]  mx-auto">
       <div className="mu flex gap-12 max-w-screen-lg mx-auto ">
         <div className="mu-image">
           <img src={mockup1} alt="" />
@@ -18,7 +18,7 @@ const MarketPlace = () => {
             Now sell Pre NFT rights and monetise your existing content for Web3
             applications
           </p>
-          <button className="btn text-[#ffffff] font-montserrat font-semibold text-base leading-5 w-56 h-[74px] rounded-full bg-[#52C1B9]">
+          <button className="btn text-[#ffffff] font-montserrat font-semibold hover:scale-105 duration-300 text-base leading-5 w-56 h-[74px] rounded-full bg-[#52C1B9]">
             CHECK IT OUT!
           </button>
         </div>
@@ -35,7 +35,7 @@ const MarketPlace = () => {
             Now sell Pre NFT rights and monetise your existing content for Web3
             applications
           </p>
-          <button className="btn text-[#ffffff] font-montserrat font-semibold text-base leading-5 w-56 h-[74px] rounded-full bg-[#52C1B9]">
+          <button className="btn text-[#ffffff] font-montserrat font-semibold hover:scale-105 duration-300 text-base leading-5 w-56 h-[74px] rounded-full bg-[#52C1B9]">
             CHECK IT OUT!
           </button>
         </div>
@@ -58,7 +58,7 @@ const MarketPlace = () => {
           Our homegrown NFT marketplace allows creators and pre NFT rights
           holders to create and sell officially licensed NFTs
         </p>
-        <button className="w-[220px] h-[74px] rounded-full flex items-center justify-center text-center bg-[#606060] font-montserrat font-semibold text-base leading-5 text-[#ffffff] mx-auto ">
+        <button className="w-[220px] h-[74px] rounded-full flex items-center hover:scale-105 duration-300 justify-center text-center bg-[#606060] font-montserrat font-semibold text-base leading-5 text-[#ffffff] mx-auto ">
           COMING SOON
         </button>
       </div>

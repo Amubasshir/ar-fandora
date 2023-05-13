@@ -5,7 +5,7 @@ import purpleLines from '../assets/purpleLine.png';
 
 const SignUpCTA = () => {
   return (
-    <div className="bg-[#07070F] h-auto pb-8 relative flex flex-col items-center justify-center">
+    <div className="bg-[#07070F] max-w-[1440px] h-auto pb-8 relative flex flex-col items-center justify-center">
       <div className="relative ">
         <img
           src={purpleLines}
@@ -44,25 +44,45 @@ const SignUpCTA = () => {
                 'linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%)',
             }}
           >
-            <img src={google} alt="" />
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={google} alt="Google logo" />
+            </a>
           </div>
+
           <div
-            className="linkedin w-20 h-20 pb-3 rounded-full ml-4 flex items-center justify-center"
+            className="google w-20 h-20 rounded-full ml-4 pb-3 flex items-center justify-center"
             style={{
               background:
                 'linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%)',
             }}
           >
-            <img src={linkedin} alt="" />
+            <a
+              href="https://www.linkedin.com/in/mubasshirahmed7/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="" />
+            </a>
           </div>
+
           <div
-            className="facebook w-20 h-20 rounded-full ml-4 flex items-center justify-center"
+            className="google w-20 h-20 rounded-full ml-4 flex items-center justify-center"
             style={{
               background:
                 'linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%)',
             }}
           >
-            <img src={facebook} alt="" />
+            <a
+              href="https://www.facebook.com/mubasshir07/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={facebook} alt="" />
+            </a>
           </div>
         </div>
       </div>

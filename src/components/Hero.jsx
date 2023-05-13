@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 const Hero = () => {
   return (
     <section
-      className="h-screen bg-no-repeat bg-center "
+      className="h-screen max-w-[1440px] bg-no-repeat bg-center "
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: '100% 100%',
